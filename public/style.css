@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+html,
+body {
+    background: #c9c6c0;
+    font-family: 'IBM Plex Sans', sans-serif;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    text-align: center;
+    width: 600px;
+}
+ h1{
+    font-size: 2.4rem;
+    font-weight: bold;
+ }
+#output {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 25px;
+    text-align: center;
+    border: 1px solid #aaa;
+    font-size: 1.25em;
+}
